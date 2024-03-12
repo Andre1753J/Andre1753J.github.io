@@ -32,13 +32,6 @@ img {
     height: 300px;
 }
 
-a {
-    padding: 3px;
-    text-decoration: none;
-    border: 2px solid rebeccapurple;
-    border-radius: 10%;
-}
-
 span {
     font-style: oblique;
 }
@@ -61,4 +54,42 @@ span {
     height: 650px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#body1 {
+    background-image: url('../img/maxwell 1 cat.gif');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: top;
+}
+
+#body2 {
+    background-image: url('../img/maxwell 2 cat.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: auto;
+    background-attachment: fixed;
+}
+
+.bt {
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 10%;
+}
+
+.botao {
+    padding: 3px;
+    text-decoration: none;
+    border: 2px solid rebeccapurple;
+    border-radius: 10%;
+    background-color: rebeccapurple;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    align-items: center;
+}
+
+.botao:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.2)
 }
