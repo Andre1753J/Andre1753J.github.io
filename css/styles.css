@@ -74,7 +74,6 @@ span {
     background-image: url('../img/maxwell 2 cat.gif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: auto;
     background-attachment: fixed;
 }
 
@@ -141,4 +140,8 @@ footer {
 nav {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+img{
+ border-radius: 20px;
 }
